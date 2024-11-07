@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (fontColor) document.body.style.color = fontColor;
   }
 
-document.querySelector("form");.addEventListener("submit", function(event) {
+document.querySelector("form").addEventListener("submit", function(event) {
     event.preventDefault(); // Prevent form submission
 
     // Get font size and color values from inputs
